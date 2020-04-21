@@ -1,0 +1,219 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.carousel {
+    border-radius: 0px 0px 55px 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+#Header_Title{
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #000;
+    margin-left: 40%;
+}
+#Second_title{
+    font-size: 1.4rem;
+    color: gray;
+    font-weight: 300;
+    margin-left: 60%;
+}
+.what-we-do{
+    margin-top: 20%;
+}
+.sub-title{
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+.primary-text{
+    color: #bd1220;
+    font-size: 2.2rem
+}
+.cards{
+    margin-top: 5%;
+}
+.card{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.card-link{
+    color: #bd1220;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px grey;
+    transition: 0.3s;
+}
+.recent-works{
+    margin-top: 10%;
+}
+.we-did{
+    margin-top: 5%;
+}
+.we-did img{
+    height: 25%;
+    opacity: 0.85;
+}
+.we-did-left{
+    border-radius: 0px 55px 55px 0px;
+}
+.we-did-right{
+    border-radius: 55px 0px 0px 55px;
+}
+.we-did-text{
+    margin-top: 20px;
+}
+.we-did img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.5s;
+}
+.Gallery{
+    margin-top: 5%;
+}
+.Gallery img{
+    /* border: 0.8px solid black; */
+    height: 250px;
+}
+.Gallery img:hover{
+    transform: scale(1.5);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px grey;
+    transition: 0.5s;
+}
+.Contact_section{
+    background-color: #333333;
+    margin-top: 5%;
+}
+.Contact_section h5{
+    color: #b3b3b3;;
+}
+.Contact{
+    margin-top: 5%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}  
+  
+/*  */
+@media (max-width: 540px) {
+    #Header_Title{
+        margin-top: 20%;
+        font-size: 3rem;
+        margin-left: 10%;
+    }
+    #Second_title{
+        margin-left: 10%;
+        color: #000;
+        font-size: 1rem;
+    }
+    .carousel{
+        opacity: 0.4;
+        z-index: -1;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .primary-text{
+        color: #bd1220;
+        font-size: 1.5rem
+    }
+    .we-did img{
+        height: 17%;
+    }
+    .Gallery img{
+        height: 230px;
+    }
+}
+@media  (min-width:540px) and (max-width:960px){
+    #Header_Title{
+        margin-top: 12%;
+        font-size: 5rem;
+        margin-left: 12%;
+    }
+    #Second_title{
+        margin-left: 12%;
+        color: #000;
+    }
+    .what-we-do{
+        margin-top: 35%;
+    }
+    .carousel{
+        opacity: 0.6;
+        z-index: -1;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .we-did img{
+        height: 20%;
+    }
+    .Gallery img{
+        
+        height: 150px;
+    }
+}
+@media (min-width:960px) and (max-width:1200px){
+    #Header_Title{
+        font-size: 6rem;
+        margin-top: 10%;
+    }
+    #Second_title{
+        color: #000;
+    }
+    .carousel{
+        height: 80%;
+    }
+    .what-we-do{
+        margin-top: 40%;
+    }
+    .Gallery img{
+        
+        height: 200px;
+    }
+}
+@media (min-width:1200px){
+    #Header_Title{
+        margin-top: 7%;
+    }
+    .carousel{
+        height: 80%;
+    }
+    .what-we-do{
+        margin-top: 20%;
+    }
+    .Contact{
+        margin-top: 2%;
+    }
+}
+/*  */
+/* offset the anchor tag */
+:target:before {
+    content:"";
+    display:block;
+    height:4rem; /* fixed header height*/
+    margin:-5px 0 0; /* negative fixed header height */
+}

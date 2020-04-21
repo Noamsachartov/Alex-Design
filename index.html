@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/design.js"></script>
+    <title>Alex Design.</title>
+</head>
+<body>
+    <!-- Navbar --> 
+    <div class="pos-f-t fixed-top">
+        <nav class="navbar fixed-top navbar-light bg-light ">
+            <a class="navbar-brand" href="#">Alex Design<span style="color: red;">.</span></a>
+          <button id="btoggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent" style="width: 40%;" >
+            <div onclick="closer()" class="bg-light p-4 ">
+                 <a href="#carouselExampleControls" id="linker" class="nav-link">Home</a>
+                 <a href="#what-we-do-section" class="nav-link">What We Do</a>
+                 <a href="#portfolio-section" class="nav-link">Portfolio</a>
+                 <a href="#gallery-section" class="nav-link">Gallery</a>
+                 <a href="#contact-section" class="nav-link">Contact</a>
+            </div>
+          </div>
+      </div>
+      <!-- End Navbar -->
+  <!--  -->
+      <!-- Main -->
+      <div class="row no-gutters">
+          <!-- Carousel -->
+          <div id="carouselExampleControls" class="carousel slide col-xl-7 col-lg-12 col-md-12 col-12 " data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/Proj1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/Proj2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/Proj3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+       <!-- Jumbotron -->
+        <!-- <div class="jumbotron jumbotron-fluid col-5 col-md-12"> -->
+            <div class="container col-12">
+              <h1 id="Header_Title" class="">Alex Design</h1>
+              <p id="Second_title" class="col-10 col-sm-8  col-md-8 col-lg-4">We love design, and we do it with great passion. Specialists in Airbnb apartment's design, houses, Work Space and more.</p>
+            </div>
+          </div>
+      <!-- End Jumbotron -->
+      <!-- End Main -->
+      <!-- What we do -->
+          <div class="what-we-do container" id="what-we-do-section">
+              <div class="row container">
+                  <p class="sub-title d-block col-7">what we do</p>
+                  <h2 class="primary-text col-md-8 col-12">Simple, Powerfull, clean, Modern design exactly how you Imagin</h2>
+              </div>
+          </div>
+          <!-- cards -->
+          <div class="container cards">
+              <div class="row justify-content-center">
+                <div class="card col-10 col-sm-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Airbnb</h5>
+                      <p class="card-text">We designed dozens of Airbnb apartments with focus on a medium budget to maximize homeowners' profits.</p>
+                      <a href="#" class="card-link">LEARN MORE</a>
+                    </div>
+                  </div>
+                  <div class="card col-10 col-sm-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Apartments</h5>
+                      <p class="card-text">Small and medium-sized apartments, with listening and observing customer needs.</p>
+                      <a href="#" class="card-link">LEARN MORE</a>
+                    </div>
+                  </div>
+                  <div class="card col-10 col-sm-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Work Space</h5>
+                      <p class="card-text">Design work Spaces according to the company's DNA, high tech invirment.</p>
+                      <a href="#" class="card-link">LEARN MORE</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!-- end cards -->
+      <!-- End what we do -->
+      <!-- project we did -->
+      <div class="container" id="portfolio-section">
+        <div class="row container recent-works">
+            <p class="sub-title d-block col-7 ">RECENT WORKS</p>
+            <h2 class="primary-text col-md-8 col-12 ">We love what we do, check out some of our latest works</h2>
+        </div>
+      </div>
+          <div class="container we-did">
+              <div class="row "> 
+                <img src="images/proj3.jpg" class="col-xl-6 col-sm-7 col-12 we-did-left order-2" alt="" >
+                <div class="col-xl-6 col-sm-5 col-12 we-did-text order-1 order-sm-2">
+                    <h3>Project one</h3>
+                    <p>sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd .sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd.sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd</p>
+                </div>
+              </div>
+          </div>
+          <div class="container we-did">
+            <div class="row "> 
+              <img src="images/proj4.jpg" class="col-xl-6 col-sm-7 col-12 we-did-right order-2" alt="" >
+              <div class="col-xl-6 col-sm-5 col-12 we-did-text order-1">
+                  <h3>Project two</h3>
+                  <p>sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd .sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd.sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd</p>
+              </div>
+            </div>
+        </div>
+        <div class="container we-did">
+            <div class="row "> 
+              <img src="images/proj6.jpg" class="col-xl-6 col-sm-7 col-12 we-did-left order-2" alt="" >
+              <div class="col-xl-6 col-sm-5 col-12 we-did-text order-1 order-sm-2">
+                  <h3>Project three</h3>
+                  <p>sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd .sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd.sdc sdhcs ksdhcs dcsldicjsdc sdclisjdcs dclsidjcs cslkdcsdc sdlijsc sdclsjcs csdkcjscd</p>
+              </div>
+            </div>
+        </div>
+      <!-- End project we did -->
+<!-- Studio Gallery -->
+        <div class="container" id="gallery-section">
+            <div class="row container recent-works justify-content-center">
+                <p class="sub-title d-block col-6">Photos</p>
+                <h2 class="primary-text col-md-8 col-8 offset-2  ">Studio Gallery</h2>
+            </div>
+        </div>
+<!-- End Studio Gallery -->
+        <div class="container  Gallery">
+            <div class="row justify-content-center">
+                <img col-4 src="images/proj1.jpg" alt="">
+                <img col-4 src="images/proj2.jpg" alt="">
+                <img col-4 src="images/proj3.jpg" alt="">
+            </div>
+            <div class="row justify-content-center">
+                <img col-4 src="images/proj4.jpg" alt="">
+                <img col-4 src="images/proj6.jpg" alt="">
+                <img col-4 src="images/proj7.jpg" alt="">
+            </div>
+            <div class="row justify-content-center">
+                <img col-4 src="images/proj8.jpg" alt="" >
+                <img col-4 src="images/proj9.jpg" alt="" >
+                <img col-4 src="images/proj10.jpg" alt="">
+            </div>
+        </div>
+<!-- End gallery -->
+<!-- Contact -->
+<div class="container">
+  <div class="row container recent-works justify-content-center">
+      <p class="sub-title d-block col-6" style="padding-top: 30px;">INFORMATION</p>
+      <h2 class="primary-text col-md-8 col-8 offset-2  ">Contact Us</h2>
+  </div>
+</div>
+<div class=" Contact container">
+  <div class="row offset-sm-1 justify-content-center no-gutters">
+    <h5 class="col-12 col-sm-4">alexDesign@gmail.com</h5>
+    <h5 class="col-12 col-sm-4">+972546642434</h5>  
+  </div>
+</div>
+  <div class="Contact_section" id="contact-section"> 
+      <div class="row no-gutters justify-content-center">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-instagram "></a>
+        <a href="" class="fa fa-youtube "></a>    
+      </div>
+        <p style="color: whitesmoke;">Developed By: Noam Sachartov</p>
+  </div>
+  <!-- End Contact -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
